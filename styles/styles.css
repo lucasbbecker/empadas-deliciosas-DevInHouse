@@ -1,0 +1,105 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(254, 184, 53);
+    padding: 35px 0;
+}
+
+.header h1 {
+    color: rgb(255, 140, 0);
+    font-weight: 700;
+
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-nav .nav-link {
+    color:rgb(254, 184, 53);
+}
+
+.custom-nav .active-link {
+    color:#ff9900;
+    font-weight: 700;
+}
+
+
+.custom-nav .nav-link:hover {
+    color: #ff9d00;
+}
+
+
+
+body {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.principal-content {
+    margin: 20px auto;
+    min-width: 300px;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.mg-content {
+    margin: 30px 10px;
+}
+
+p {
+    font-weight: 400;
+}
+
+
+h2 {
+    color: rgb(255, 140, 0);
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.cardapio {
+    width: 250px;
+    height: 250px;
+    margin: 0px auto 30px auto;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.table-orange {
+    --bs-table-bg: #ff9900 !important;
+}
+
+.imagem-time {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.chefs-retrato {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mg-bottom {
+    margin-bottom: 30px;
+}
+
+.mg-top {
+    margin-top: 10px;
+}
